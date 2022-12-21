@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    margin: 80px;
+    font-size: 36px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d81717;
+    background-image: linear-gradient(315deg, #fa3306 0%, #1dd813 74%);
+}
+ 
+table {
+    border-spacing: 0;
+}
+ 
+table,
+td,
+th {
+    border: 1px solid black;
+}
+ 
+td,
+th {
+    padding: 5px 20px;
+}
+ 
+thead {
+    background-color: tomato;
+}
+ 
+tbody {
+    background-color: #fff;
+}
+ 
+tfoot {
+    background-color: royalblue;
+} 
+h1 {
+    color: white; size: 1px;
+}
+label {
+    color: rgb(0, 8, 255);
+}
+input {
+    color: darkblue; size: 15px;
+}
